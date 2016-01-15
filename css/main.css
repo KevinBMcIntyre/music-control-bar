@@ -29,6 +29,7 @@ body {
   text-align: center;
   color: #333;
   position: relative;
+  padding-left: 50px;
 }
 
 .song {
@@ -48,10 +49,6 @@ position: absolute;
 left:0;
 top: 0;
 width: 50px;
-}
-
-.time {
-
 }
 
 .time-bar {
