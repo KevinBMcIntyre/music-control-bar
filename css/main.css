@@ -28,6 +28,7 @@ body {
   background-image: linear-gradient(to bottom, #e2e2e2, #ccc);
   text-align: center;
   color: #333;
+  position: relative;
 }
 
 .song {
@@ -43,7 +44,10 @@ body {
 }
 
 .album {
-
+position: absolute;
+left:0;
+top: 0;
+width: 50px;
 }
 
 .time {
@@ -97,9 +101,14 @@ body {
 }
 
 .control-list {
-
+right: .25rem;
+top: .25rem;
+position: absolute;
 }
 
 .control-heart {
-
+right: 1.75rem;
+top: .35rem;
+position: absolute;
+font-size: 1.5rem;
 }
