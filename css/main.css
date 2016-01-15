@@ -81,10 +81,16 @@ width: 50px;
 
 .time-lapsed {
   font-size: .7rem;
+  left: 3.5rem;
+  top: 1.5rem;
+  position: absolute;
 }
 
 .time-total {
   font-size: .7rem;
+  right: .25rem;
+  top: 1.5rem;
+  position: absolute;
 }
 
 .controls {
@@ -97,18 +103,21 @@ width: 50px;
 }
 
 .control-shuffle {
-
+  left: 3.5rem;
+  top: .25rem;
+  position: absolute;
+  font-size: 1rem;
 }
 
 .control-list {
-right: .25rem;
-top: .25rem;
-position: absolute;
+  right: .25rem;
+  top: .25rem;
+  position: absolute;
 }
 
 .control-heart {
-right: 1.75rem;
-top: .35rem;
-position: absolute;
-font-size: 1.5rem;
+  right: 1.75rem;
+  top: .35rem;
+  position: absolute;
+  font-size: 1.5rem;
 }
